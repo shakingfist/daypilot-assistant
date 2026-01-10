@@ -1,132 +1,48 @@
-# daypilot-assistant
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DayPilot Assistant</title>
+# DayPilot Assistant
 
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: #f5f7fb;
-      color: #1c1c1e;
-      margin: 0;
-      padding: 0;
-    }
+DayPilot Assistant is a lightweight, privacy-focused task manager for iOS built with SwiftUI and SwiftData.  
+It helps users stay organized using categories, gestures, and Siri voice commands.
 
-    .container {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
+---
 
-    h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
+## ✨ Features
 
-    h2 {
-      margin-top: 40px;
-      font-size: 22px;
-      border-bottom: 2px solid #e0e0e5;
-      padding-bottom: 6px;
-    }
+- Create and manage tasks by category (Home, Work, Errands, etc.)
+- Swipe gestures:
+  - Swipe right → Mark task as completed
+  - Swipe left → Delete task
+- Add tasks with Siri using App Intents
+- Optional reminders with local notifications
+- Notes for each task
+- iCloud sync using Apple CloudKit
+- Clean card-based UI
+- Privacy-friendly (no external analytics or tracking)
 
-    p {
-      line-height: 1.6;
-      font-size: 16px;
-    }
+---
 
-    ul {
-      padding-left: 20px;
-    }
+## 🗣 Siri & Voice Support
 
-    li {
-      margin-bottom: 8px;
-    }
+You can use Siri to interact with DayPilot Assistant.
 
-    .footer {
-      margin-top: 60px;
-      font-size: 14px;
-      color: #6e6e73;
-      text-align: center;
-    }
+Example phrases:
+- “Add a task in DayPilot Assistant”
+- “Create a to-do in DayPilot Assistant”
+- “Add a note to my task in DayPilot Assistant”
 
-    a {
-      color: #0a84ff;
-      text-decoration: none;
-    }
+More App Intents can be added over time.
 
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
+---
 
-<body>
-  <div class="container">
-    <h1>DayPilot Assistant</h1>
+## 🛠 Tech Stack
 
-    <p>
-      DayPilot Assistant is a smart task manager designed to help you organize
-      your day with categories, swipe gestures, and Siri voice commands.
-    </p>
+- SwiftUI
+- SwiftData
+- CloudKit (iCloud sync)
+- App Intents (Siri integration)
+- Local Notifications
+- iOS 17+
 
-    <h2>Key Features</h2>
-    <ul>
-      <li>Create and organize tasks by category</li>
-      <li>Swipe right to mark tasks complete</li>
-      <li>Swipe left to delete tasks</li>
-      <li>Add tasks and notes using Siri</li>
-      <li>Optional reminders and due dates</li>
-      <li>iCloud sync using Apple CloudKit</li>
-    </ul>
+---
 
-    <h2>Siri & Voice Support</h2>
-    <p>You can use Siri to interact with DayPilot Assistant.</p>
-    <ul>
-      <li>“Add a task in DayPilot Assistant”</li>
-      <li>“Create a to-do in DayPilot Assistant”</li>
-      <li>“Add a note to my task in DayPilot Assistant”</li>
-    </ul>
 
-    <h2>Support</h2>
-    <p>
-      If you have questions or need help, contact us at:
-      <br />
-      <strong>Email:</strong>
-      <a href="mailto:support@daypilotapp.com">support@daypilotapp.com</a>
-    </p>
-
-    <h2>Privacy Policy</h2>
-    <p>
-      DayPilot Assistant respects your privacy. Your tasks are stored securely
-      on your device and synced using Apple iCloud (CloudKit) when enabled.
-      We do not collect, sell, or share personal data.
-    </p>
-
-    <p>
-      Voice input is processed locally or by Apple services as part of Siri and
-      dictation functionality. DayPilot Assistant does not store or transmit
-      voice recordings.
-    </p>
-
-    <h2>Terms of Service</h2>
-    <p>
-      DayPilot Assistant is provided “as is” without warranties of any kind.
-      Use of the app is at your own discretion and risk.
-    </p>
-
-    <p>
-      By using the app, you agree to comply with all applicable laws and Apple’s
-      App Store terms.
-    </p>
-
-    <div class="footer">
-      © 2026 DayPilot Assistant. All rights reserved.
-    </div>
-  </div>
-</body>
-</html>
 
